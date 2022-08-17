@@ -10,8 +10,9 @@ body{
     box-shadow: 0 10px 15px rgba(0,0,0,0.5);
     padding: 15px 25px;
     border-radius: 5px;
-    height: 500px;
+    height: 550px;
     position: relative;
+    margin-top: 60px;
 }
 
 .service-card-header {
@@ -48,10 +49,10 @@ body{
 .service-card-body{
     line-height: 32px;
     position: relative;
-    bottom: 5%;
+    bottom: 8%;
 }
 .service-card-footer{
-    position: relative;
-    bottom: -13%;
-    /* left: 50%; */
+    position: absolute;
+    bottom: 20px;
+    left: 30%;
 }
