@@ -86,3 +86,33 @@ Project section starts here
 .problem-details h4, p{
     display: inline-block;
 }
+
+
+
+.staff-social-icon{
+    display: flex;
+}
+.facebook-span{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.facebook-span2{
+    background-color: #0777E8;
+}
+.facebook-span a{
+    color: white;
+}
+
+.whatsapp-span{
+    background-color: #0CC243;
+}
+.twitter-span{
+    background-color: turquoise;
+}
+.call-span{
+    background-color: #E76337;
+}
