@@ -147,3 +147,101 @@ Feedback section starts here
 .client-text p{
     color: teal;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#navbar-fixed-bottom{
+    display: none;
+}
+
+@media only screen and (max-width:768px){
+    #navbar-fixed-bottom{
+        display: block;
+    }
+    .navbars{
+        background: white;
+        z-index: 5000;
+        box-shadow: 0px -2px 4px rgba(0,0,0,0.3);
+        padding-top: 7px;
+        padding-bottom: 5px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .navbar-elements{
+        text-align: center;
+        position: relative;
+        color: #818189;
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-elements i{
+        font-size: 16px;
+    }
+    .navbar-elements span{
+        font-size: 14px;
+    }
+    
+    #mid-icon{
+        color: #198754;    
+        position: absolute;
+        top: -80%;
+        z-index: 500;
+        border: 3px solid white;
+        width: 53px;
+        height: 53px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background: #4368A5;
+        box-shadow: 0 0 4px rgba(0,0,0,0.3);
+    }
+    #mid-icon i{
+        font-size: 1.4em;     
+        color: white;   
+    }
+
+    #call{
+        position: relative;
+        margin-top: 10px;
+    }
+
+    #facebook{
+        color: #818189;
+    }
+    #linkedIn{
+        background: #818189;
+        color: white;
+        border-radius: 5px;
+    }
+    #twitter{
+        color: #818189;
+    }
+    .span-text{
+        font-weight: 500;
+    }
+}
