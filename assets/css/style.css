@@ -74,6 +74,12 @@ Project section starts here
 #projectImage1{
     width: 160%;
 }
+#projectImage2{
+    width: 200%;
+}
+#projectImage3{
+    width: 160%;
+}
 
 .problem-details h4, p{
     display: inline-block;
