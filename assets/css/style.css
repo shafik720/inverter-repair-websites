@@ -6,6 +6,9 @@ body{
 
 
 
+/*------------------------------------------------------------------
+Service card section starts here  
+--------------------------------------------------------------------*/
 .service-cards{
     box-shadow: 0 10px 15px rgba(0,0,0,0.5);
     padding: 15px 25px;
@@ -55,4 +58,23 @@ body{
     position: absolute;
     bottom: 20px;
     left: 30%;
+}
+/*------------------------------------------------------------------
+Service card section ends here  
+--------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+Project section starts here  
+--------------------------------------------------------------------*/
+.project-header{
+    height: 300px;
+    overflow: hidden;
+}
+#projectImage1{
+    width: 160%;
+}
+
+.problem-details h4, p{
+    display: inline-block;
 }
