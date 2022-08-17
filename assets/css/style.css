@@ -82,11 +82,15 @@ Project section starts here
 #projectImage3{
     width: 160%;
 }
+/*------------------------------------------------------------------
+Project section ends here  
+--------------------------------------------------------------------*/
 
 
 
-
-
+/*------------------------------------------------------------------
+Staff section starts here  
+--------------------------------------------------------------------*/
 .staff-social-icon{
     display: flex;
 }
@@ -113,4 +117,37 @@ Project section starts here
 }
 .call-span{
     background-color: #5F43C5;
+}
+/*------------------------------------------------------------------
+staff section ends here  
+--------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+Feedback section starts here  
+--------------------------------------------------------------------*/
+.client-circle{
+    position: relative;
+    border: 3px solid #671E75;
+}
+.client-image{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    border: 5px solid #671E75;
+}
+.client-text{
+    margin-top: 80px;
+    padding: 10px;
+}
+.client-text p{
+    color: teal;
+}
+.client-name{
+    /* position: absolute;
+    bottom: 10px; */
 }
