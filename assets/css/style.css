@@ -23,7 +23,7 @@ Service card section starts here
 .service-card-header {
     width: 120px;
     height: 120px;
-    background-color: #F3F3F3;
+    background-color: #671E75;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,6 +69,10 @@ Service card section ends here
 /*------------------------------------------------------------------
 Project section starts here  
 --------------------------------------------------------------------*/
+
+.project-card{
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
 .project-header{
     height: 300px;
     overflow: hidden;
